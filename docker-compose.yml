@@ -19,7 +19,7 @@ services:
 
 #     replace by the path to your own sogo.conf file
 
-         - /opt/sogo.conf:/etc/sogo/sogo.conf
+         - ./sogo.conf:/etc/sogo/sogo.conf
       environment:
          - "TZ=Europe/Amsterdam"
    db:
